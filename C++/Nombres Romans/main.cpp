@@ -3,7 +3,7 @@
 
 int main() {
 	while (true) {
-		cout << "Escriu un nombre roma o algebraic (p => veure tots, q => sortir):\n";
+		cout << "Escriu un nombre roma o algebraic que sigui menor a 4000 (p => veure tots, q => sortir):\n";
 		char cmd = _getch();
 		if (cmd == 'p' || cmd == 'P') {
 			for (int i = 1; i < 4000; i++) cout << i << " => " << Romans::DECaROM(i) << "\n";
